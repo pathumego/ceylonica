@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ceylonica - World with Words</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+    body {
+        padding-top: 70px;
+        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    }
+    </style>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Ceylonica</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <!-- LANGUAGE SELECTOR -->
+              <li class="dropdown">
+              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Language
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop1">
+                <li><a href="#">Sinhala</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+              </ul>
+            </li>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+<div class="container">
+     
+        
+<!-- .BASIC -->     
+<div class="row">
+    <div class="col-md-12">
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+            10%
+        </div>
+    </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <!-- WORD / ADD WORD -->
+        <input type="text" class="form-control input-lg" id="exampleInputName2" placeholder="Add Word">
+        <p class="help-block">Ex: මිනිසා</p>
+
+
+    </div>
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4 text-right">
+        <!-- META DATA --> <button type="button" class="btn btn-default">Edit this Word</button>
+    </div>
+</div> 
+<h1 class="page-header">Basics</h1>
+<div class="row">
+        <div class="col-md-12">
+        <label for="exampleInputFile">
+            <h3>General Meaning</h3>
+        </label>
+        <p class="help-block">ex:  </p>
+        <textarea class="form-control" rows="2"></textarea>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <!-- Transliterations-->
+        <h3>Transliterations</h3>
+        <p class="help-block">Minisa </p>
+        <form class="form-inline" style="width:100%" >
+            <div class="form-group" style="width:100%">
+                <select class="form-control">
+                    <option>English</option>
+                    <option>Tamil</option>
+                </select>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Add Transliteration" >
+            </div>
+        </form>
+       <p class="help-block">மினிச </p>
+        <form class="form-inline" style="width:100%">
+            <div class="form-group" style="width:100%">
+                <select class="form-control">
+                    <option>Tamil</option>
+                    <option>English</option>
+                </select>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Add Transliteration">
+            </div>
+        </form>
+<!--        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add More Transliterations</button>-->
+    </div>
+    <div class="col-md-9">
+        <!-- Transliterations-->
+        <h3>Translations</h3>
+        <p class="help-block">MAN - මෑන්  </p>
+        <form class="form-inline" style="width:100%" >
+            <div class="form-group" style="width:100%">
+                <select class="form-control">
+                    <option>English</option>
+                    <option>Tamil</option>
+                </select>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Add Translation" >
+                <select class="form-control">
+                    <option>Sinhala</option>
+                    <option>Tamil</option>
+                </select>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Add Transliteration" >
+            </div>
+        <p class="help-block"> மனிதன் - මනිටන් - manitan </p>
+        </form>
+            <form class="form-inline" style="width:100%" >
+            <div class="form-group" style="width:100%">
+                <select class="form-control">
+                    <option>Tamil</option>
+                    <option>English</option>
+                </select>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Add Translation" >
+                <select class="form-control">
+                    <option>Sinhala</option>
+                    <option>Tamil</option>
+                </select>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Add Transliteration" >
+                <select class="form-control">
+                    <option>English</option>
+                    <option>Tamil</option>
+                </select>
+                <input type="text" class="form-control" id="exampleInputName2" placeholder="Add Transliteration" >
+                
+            </div>
+        </form>
+<!--        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add More Translations</button>-->
+    </div>
+</div>              
+<div class="row">
+    <!--Audio and Image-->
+    <div class="col-md-6">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputFile">
+                    <h3>Upload Image </h3>
+                </label>
+                    <a href="#" class="thumbnail"><img src="..." alt="..."></a>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Upload an image that would show the context of the word.</p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> I have permission to upload this image.
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">Upload</button>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputFile">
+                    <h3>Upload Audio </h3>
+                </label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Upload an audio that would show how to pronounce the word.</p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> I have permission to upload this audio.
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">Upload</button>
+        </form>
+    </div>            
+</div>                    
+<div class="row">
+    <div class="col-md-12 text-right">
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="submit" class="btn btn-danger">Next</button>
+    </div>
+</div>           
+<!-- /.BASIC -->         
+            
+        
+<!-- .LINGUISTIC --> 
+        
+<h1 class="page-header">Linguistics</h1>
+<div class="row">
+    <div class="col-md-6">
+        <label for="exampleInputFile">
+            Similar Words
+        </label>
+        <p class="help-block">ex: මනු / දෙපා සතා/ </p>
+        <textarea class="form-control" rows="4"></textarea>
+    </div>
+    <div class="col-md-6">
+        <label for="exampleInputFile">
+            Similar Words in Tamil
+        </label>
+        <p class="help-block">ex: මනු / දෙපා සතා/ </p>
+        <textarea class="form-control" rows="2"></textarea>
+    </div>
+    <div class="col-md-6">
+        <label for="exampleInputFile">
+            Similar Words in English
+        </label>
+        <p class="help-block">ex: මනු / දෙපා සතා/ </p>
+        <textarea class="form-control" rows="2"></textarea>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 text-right">
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="submit" class="btn btn-danger">Next</button>
+    </div>
+</div>   
+<!-- /.LINGUISTIC -->         
+
+    
+<!-- .ENCYCLOPEDIA --> 
+        
+<h1 class="page-header">Encyclopedia</h1>
+<div class="row">
+</div>
+<div class="row">
+    <div class="col-md-12 text-right">
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="submit" class="btn btn-danger">Next</button>
+    </div>
+</div>
+       
+<!-- /.ENCYCLOPEDIA --> 
+        
+<!-- .SUBJECTS --> 
+        
+<h1 class="page-header">Subjects</h1>
+<div class="row">
+</div>
+<div class="row">
+    <div class="col-md-12 text-right">
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="submit" class="btn btn-danger">Next</button>
+    </div>
+</div>
+       
+<!-- /.SUBJECTS --> 
+
+ <!-- .USEAGE --> 
+        
+<h1 class="page-header">Usage</h1>
+<div class="row">
+</div>
+<div class="row">
+    <div class="col-md-12 text-right">
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="submit" class="btn btn-danger">Next</button>
+    </div>
+</div>
+       
+ <!-- /.USEAGE --> 
+        
+ <!-- .SCHOOL SYLLABLES --> 
+        
+<h1 class="page-header">School Syllabus</h1>
+<div class="row">
+</div>
+<div class="row">
+    <div class="col-md-12 text-right">
+        <button type="submit" class="btn btn-success">Save</button>
+        <button type="submit" class="btn btn-danger">Next</button>
+    </div>
+</div>
+       
+ <!-- /.SCHOOL SYLLABLES --> 
+        
+        
+        
+        
+        
+            
+<!-- /.container -->
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+        
+        
+        
+</body>
+
+</html>
